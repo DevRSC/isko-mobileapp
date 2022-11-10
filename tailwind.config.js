@@ -7,6 +7,10 @@ module.exports = {
     "./src/navigation/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ["Inter", "sans-serif"],
+      body: ["Inter"],
+    },
     extend: {},
   },
   plugins: [],
